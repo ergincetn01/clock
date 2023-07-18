@@ -1,0 +1,41 @@
+.main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: blue
+}
+.date {
+    color: white;
+    border: 2px solid black; 
+    background-color: black;
+    font-size: large;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    width: 300px;
+    border-radius: 7px;
+    height: 100px;
+}
+
+.clock-item {
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    width: 80px;
+    height: 80px;
+}

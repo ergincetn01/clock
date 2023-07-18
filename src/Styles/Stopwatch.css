@@ -1,0 +1,85 @@
+.main {
+    margin: auto; 
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 500px;
+    border-radius: 7px;
+    height: 300px;
+   
+  }
+  
+  .clock-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+  }
+  
+  .sq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    padding: "15px";
+  }
+  .btn-reset {
+    width: 100px;
+    color: blue;
+    background-color: white;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .btn-reset:hover {
+    background-color: lightblue;
+    border-color: blue;
+    box-shadow: none;
+  }
+  .btn-stop {
+    width: 100px;
+    color: blue;
+    background-color: white;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .btn-stop:hover {
+    background-color: lightblue;
+    border-color: blue;
+    box-shadow: none;
+  }
+  
+  .btn-start {
+    width: 100px;
+    color: blue;
+    background-color: white;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .btn-start:hover {
+    background-color: lightblue;
+    border-color: blue;
+    box-shadow: none;
+  }
+  
